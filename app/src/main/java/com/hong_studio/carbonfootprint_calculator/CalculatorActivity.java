@@ -45,7 +45,7 @@ public class CalculatorActivity extends AppCompatActivity {
                     et04.setVisibility(View.GONE);
                     tv_erase.setText("");
                 } else{
-                    tv.setText(rb.getText().toString()+" 사용량 : ");
+                    tv.setText(rb.getText().toString()+" 사용량");
                     et04.setVisibility(View.VISIBLE);
                     tv_erase.setText("km/월");
                 }
@@ -107,6 +107,7 @@ public class CalculatorActivity extends AppCompatActivity {
         }
 
         startActivity(intent);
+        finish();
     }
 
     public void btnReset(View view) {

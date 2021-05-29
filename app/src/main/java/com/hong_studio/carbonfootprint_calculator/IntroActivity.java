@@ -18,6 +18,7 @@ public class IntroActivity extends AppCompatActivity {
     public void btnStart(View view) {
         Intent intent= new Intent(this, CalculatorActivity.class);
         startActivity(intent);
+        finish();
     }
 
     public void btnCarbon(View view) {

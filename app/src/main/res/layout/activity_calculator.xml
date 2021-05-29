@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp"
+        android:paddingTop="8dp"
         android:gravity="center_horizontal">
         <ImageView
             android:layout_width="40dp"
@@ -40,7 +40,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="전기 사용량 : "
+            android:text="전기 사용량"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="#FF000000"
@@ -53,7 +53,7 @@
             android:ems="5"
             android:background="@drawable/bg_edittext"
             android:layout_margin="4dp"
-            android:maxLength="6"
+            android:maxLength="5"
             android:inputType="number"
             android:padding="8dp"
             android:gravity="right"/>
@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp"
+        android:paddingTop="8dp"
         android:gravity="center_horizontal">
         <ImageView
             android:layout_width="40dp"
@@ -80,7 +80,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="가스 사용량 : "
+            android:text="가스 사용량"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="#FF000000"
@@ -93,7 +93,7 @@
             android:ems="5"
             android:background="@drawable/bg_edittext"
             android:layout_margin="4dp"
-            android:maxLength="6"
+            android:maxLength="5"
             android:inputType="number"
             android:padding="8dp"
             android:gravity="right"/>
@@ -110,7 +110,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp"
+        android:paddingTop="8dp"
         android:gravity="center_horizontal"
         android:layout_marginBottom="28dp">
         <ImageView
@@ -121,7 +121,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="수도 사용량 : "
+            android:text="수도 사용량"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="#FF000000"
@@ -134,7 +134,7 @@
             android:ems="5"
             android:background="@drawable/bg_edittext"
             android:layout_margin="4dp"
-            android:maxLength="6"
+            android:maxLength="5"
             android:inputType="number"
             android:padding="8dp"
             android:gravity="right"/>
@@ -190,7 +190,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp"
+        android:paddingTop="8dp"
         android:gravity="center_horizontal">
         <ImageView
             android:layout_width="40dp"
@@ -201,7 +201,7 @@
             android:id="@+id/tv_gasoline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="경유 사용량 : "
+            android:text="경유 사용량"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="#FF000000"
@@ -214,7 +214,7 @@
             android:ems="5"
             android:background="@drawable/bg_edittext"
             android:layout_margin="4dp"
-            android:maxLength="6"
+            android:maxLength="5"
             android:inputType="number"
             android:padding="8dp"
             android:visibility="visible"

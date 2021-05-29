@@ -31,16 +31,17 @@ public class ResultActivity extends AppCompatActivity {
         String s_co2= String.format("%.2f", co2Sum);
         String s_tree= String.format("%.2f", co2Sum/6.6);
 
-        tv_co2.setText("CO²발생량 : "+ s_co2 +"kg");
-        tv_tree.setText("필요 소나무 : "+ s_tree +"그루");
+        tv_co2.setText("CO²발생량\n"+ s_co2 +"kg");
+        tv_tree.setText("필요 소나무\n"+ s_tree +"그루");
     }
 
     public void btnRestart(View view) {
         Intent intent= new Intent(this, IntroActivity.class);
         startActivity(intent);
+        finish();
     }
 
     public void btnFinish(View view) {
-        finishAffinity();
+        finish();
     }
 }

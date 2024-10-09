@@ -1,4 +1,4 @@
-package com.hong_studio.carbonfootprint_calculator
+package com.hong_studio.carboncalculator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

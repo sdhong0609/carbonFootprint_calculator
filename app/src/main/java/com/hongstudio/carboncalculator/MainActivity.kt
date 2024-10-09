@@ -1,4 +1,4 @@
-package com.hong_studio.carbonfootprint_calculator
+package com.hongstudio.carboncalculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

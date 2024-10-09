@@ -1,4 +1,4 @@
-package com.hong_studio.carboncalculator
+package com.hongstudio.carboncalculator
 
 import org.junit.Test
 

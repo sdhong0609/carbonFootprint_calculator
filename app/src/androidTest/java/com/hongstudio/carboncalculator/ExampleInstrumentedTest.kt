@@ -1,4 +1,4 @@
-package com.hong_studio.carboncalculator
+package com.hongstudio.carboncalculator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.hong_studio.carbonfootprint_calculator", appContext.packageName)
+        assertEquals("com.hongstudio.carboncalculator", appContext.packageName)
     }
 }
